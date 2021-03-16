@@ -3,7 +3,7 @@
   "short_name": "Exam PWA",
   "icons": [
   	{
-  		"src": "http://localhost/MyProject/akuntansi_v2_1/assets/image_default.png",
+  		"src": "https://faisalnuramal.github.io/image_default.png",
   		"type": "image/png",
   		"sizes": "520x520"
 	}
@@ -11,6 +11,6 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "fullscreen",
-  "scope": "http://localhost/MyTutorial/pwa",
-  "start_url": "http://localhost/MyTutorial/pwa"
+  "scope": "https://faisalnuramal.github.io/",
+  "start_url": "https://faisalnuramal.github.io/"
 }
