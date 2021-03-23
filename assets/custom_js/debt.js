@@ -4,6 +4,10 @@ $(document).ready(function() {
 });
 
 $('button#save_debt').on('click', function() {
+	alert(`name: ${$('input[name="name"]').val()},
+email: ${$('input[name="email"]').val()},
+age: ${$('input[name="age"]').val()}`);
+	/*
 	$.ajax({
 		url: 'http://cashtory.rf.gd/cashtory/debt/add',
 		type: 'POST',
@@ -24,6 +28,7 @@ $('button#save_debt').on('click', function() {
 			console.log(result);
 		}
 	});
+	*/
 });
 
 function load_list_debt()
